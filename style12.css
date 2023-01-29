@@ -468,7 +468,7 @@ textarea{
     border-radius: 10px;
 }
 
-input[type="email"], input[type="text"]{
+input[type="email"], input[type="text"], select{
     width: 390px;
     padding: 5px;
     border: 1px solid #151641;
@@ -537,4 +537,13 @@ button{
 .c13{
     margin-left: 50%;
     margin-top: 18%;
+}
+
+.part5_5{
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    margin-top: 100px;
+}
+.texta{
+    margin: 0 !important;
 }
