@@ -32,4 +32,19 @@ function main() {
       modal.style.display = "none";
     }
   }
+
+  // Process sending to server.
+  // $("#plan-form").on( "submit", function( event ) {    
+  //   event.preventDefault();
+  //   let data = $( this ).serialize();
+  //   //make our request here
+  //   $.post( "/login", function( data ) {
+  //       console.log(data);
+  //   });
+  // });
+
 }
+
+// const data = require('./data.json');
+
+// console.log('data.title : ', data.predictions[0].awareness.content)
