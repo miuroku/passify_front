@@ -11,9 +11,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="script/logic.js"></script>
     <title>Passify</title>
 </head>
-<body>
+<body onload="form();">
     <div class="circle1">
         <svg width="444" height="461" viewBox="0 0 444 461" fill="none" xmlns="http://www.w3.org/2000/svg">
            <g filter="url(#filter0_f_46_199)">
@@ -150,7 +152,7 @@
                                       </select>
                                 </div>
                                 <div class="buttons"></div>
-                                    <button type="submit">Отправить</button>
+                                    <button type="submit" id="submitform">Отправить</button>
                                 </div>
                                 
                             </div>

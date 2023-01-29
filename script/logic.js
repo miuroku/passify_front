@@ -33,17 +33,21 @@ function main() {
   //   }
   // }
 
-  // Process sending to server.
-  // $("#plan-form").on( "submit", function( event ) {    
-  //   event.preventDefault();
-  //   let data = $( this ).serialize();
-  //   //make our request here
-  //   $.post( "/login", function( data ) {
-  //       console.log(data);
-  //   });
+  // document.querySelector('#submitform').addEventListener('click', function(e) {
+  //   e.preventDefault();
+  //   console.log('Submitted.');
+  //   prompt('kke');
+  //   alert('er');
   // });
+}
 
-  
+function form() {
+
+  document.querySelector('#submitform').addEventListener('click', function(e) {
+    e.preventDefault();
+    console.log('Submitted.');
+    window.location.href = 'index2.html';
+  });
 
 }
 
