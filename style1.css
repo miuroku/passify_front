@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+    color: #151641;
+    overflow-x: hidden;
+    font-size: 16px;
+}
+
+body{
+    background: linear-gradient(180deg, #FFFFFF 0%, #E1E0DB 34.69%, #FFFDF6 97.71%) no-repeat ;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.header{
+    background: #fff;
+}
+
+.header .wrapper{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: 'Kanit';
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.button-strategy{
+    width: 169px;
+    height: 30px;
+    background: #27284E;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-strategy p{
+    color: #FFFDF6;
+}
+
+.search,
+.right{
+    width: 30px;
+    height: 30px;
+    background: #27284E;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages{
+    display: flex;
+    flex-direction: row;
+    gap:36px;
+}
+
+.pages a{
+    color: rgba(39, 40, 78, 0.8);
+    text-decoration: none;
+}
+
+.pages span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part1{
+    margin-top: 84px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 100px;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+}
+
+.h1{
+    margin-top: 92px;
+}
+
+h1 p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+    text-transform: uppercase;
+    color: rgb(225, 224, 219, 0%);
+    -webkit-text-stroke: 1.5px #151641;
+    margin-top: -28px;
+}
+
+.h1-down{
+    margin-top: 8px;
+}
+
+.part2{
+    margin-top: 246px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.part2 h2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;    
+    text-transform: uppercase;
+    color: #151641;
+    -webkit-text-stroke: 1px #151641;
+}
+
+.part2 h2 p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    text-transform: uppercase;
+    color: rgb(225, 224, 219, 0%);
+    -webkit-text-stroke: 1.5px #151641;
+    margin-top: -24px;
+}
+
+.circle1 svg,
+.circle2 svg,
+.circle3 svg,
+.circle4 svg,
+.circle5 svg{
+    position: absolute;
+    z-index: -1;
+}
+
+.c11{
+    margin-top: 200px;
+}
+
+.c10{
+    margin-left: 83%;
+}
+
+.c16{
+    margin-left: 55%;
+    margin-top: 20%;
+}
+
+.card1, .card2, .card3, .block1, .block2, .block3, .block4{
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+.card1{
+    width: 390px;
+    height: 402px;
+    margin-top: -100px;
+
+}
+
+.card1 img{
+    width: 342px;
+    height: 232px;
+    border-radius: 10px;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+.card1 p, .card2 p, .card3 p{
+    margin-left: 24px;
+}
+
+.card2{
+    width: 260px;
+    height: 336px;
+    margin-right: 120px;
+    margin-top: 90px;
+}
+
+.card2 img{
+    width: 212px;
+    height: 154px;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+.card3{
+    width: 330px;
+    height: 457px;
+}
+
+.card3 img{
+    width: 282px;
+    height: 263px;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+.part2 .h2{
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+}
+
+.part2 .h2 p{
+    margin-left: 200px;
+}
+
+.c39{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.cards{
+    display: flex;
+    justify-content: right;
+    margin-top: -275px;
+}
+
+p.card-h{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.block-h,
+.block2-h{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.block-h{
+    font-size: 16px;
+    margin-left: 16px;
+}
+
+.block2-h{
+    font-size: 24px;
+    margin-left: 40px;
+    margin-top: 12px;
+}
+
+.card-t{
+    color: rgba(0, 0, 0, 0.53);
+    font-weight: 600;
+}
+
+.block-t{
+    width: 365px;
+    margin-left: 40px;
+    margin-top: 8px;
+}
+
+.card1 .right, .card2 .right, .card3 .right, .card4 .right{
+    margin-top: 35px;
+    float: right;
+    margin-right: 24px;
+}
+
+.c19{
+    margin-left: 75%;
+    margin-top: 15%;
+}
+
+.c18{
+    margin-left: 20%;
+    margin-top: 38%;
+}
+
+.cards .more{
+    margin-top: 402px;
+    margin-right: 120px;
+
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.part3, .part4{
+    margin-top: 246px;
+}
+
+.part3 .h3 h2,
+.part4 .h3 h2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;    
+    text-transform: uppercase;
+    color: #151641;
+    -webkit-text-stroke: 1px #151641;
+}
+
+.part3 .h3 h2 span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    text-transform: uppercase;
+    color: rgb(225, 224, 219, 0%);
+    -webkit-text-stroke: 1.5px #151641;
+}
+
+.why-we{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.why{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+.why1, .why2, .why3, .why4{
+    display: flex;
+    align-items: center;
+}
+
+.why-left{
+    margin-right: 14px;
+}
+
+.why2, .why4{
+    margin-top: 92px;
+}
+
+.d-C{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.why1 svg, .why2 svg, .why3 svg, .why4 svg{
+    margin-right: 20px;
+}
+
+.why-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.discr-C{
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+.c40{
+    margin-left: 1%;
+    margin-top: 7%;
+}
+
+.c27{
+    margin-left: 70%;
+    margin-top: 10%;
+}
+
+.c28{
+    margin-left: 47%;
+    margin-top: 20%;
+}
+
+.c26{
+    margin-left: 47%;
+    margin-top: 35%;
+}
+
+.block1{
+    width: 260px;
+    height: 287px;
+    margin-top: 10%;
+}
+
+.block2{
+    width: 460px;
+    height: 636px;
+}
+
+.block3,
+.block4{
+    width: 260px;
+    height: 261px;
+}
+
+.blocks{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 100px;
+}
+
+.block1 .right,
+.block3 .right,
+.block4 .right{
+    float: right;
+    margin-right: 24px;
+}
+
+.block1>svg,
+.block3>svg,
+.block4>svg{
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.block2>svg{
+    margin-top: 24px;
+    margin-left: 40px;
+}
+
+.block2 .right{
+    float: right;
+    margin-right: 40px;
+    margin-top: 42px;
+}
+
+.blocks-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.c32{
+    margin-left: 1%;
+    margin-top: 10%;
+}
+
+.c29{
+    margin-left: 75%;
+    margin-top: 15%;
+}
+
+.c31{
+    margin-left: 23%;
+    margin-top: 25%;
+}
