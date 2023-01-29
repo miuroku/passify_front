@@ -14,11 +14,90 @@
     <script src="script/logic.js"></script>
     <title>Passify</title>
 </head>
-<body>
+<body onload="main();">
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 style="font-size: 35px;">План продвижения</h2>
+        <form>
+          <div class="modal-element">
+            <label for="forgname">Название организации: </label><br>
+            <input type="text" id="forgname" name="forgname"><br>
+          </div>
+
+          <div class="modal-element">
+            <label for="phonenumber">Номер телефона: </label><br>
+            <input type="text" id="phonenumber" name="phonenumber"><br>
+          </div>
+
+          <div class="modal-element">
+            <label for="email">E-mail: </label><br>
+            <input type="text" id="email" name="email"><br>
+          </div>
+
+          <!-- <label for="aim">Цель продвижения: </label><br>
+          <input type="text" id="aim" name="aim"><br> -->
+
+          <div class="modal-element">
+            <select>
+              <option selected disabled>Цель продвижения:</option>
+              <option value="aim_1">повышение узнаваемости</option>
+              <option value="aim_2">увеличение спроса на товары и услуги</option>
+              <option value="aim_3">увеличение продаж товаров и услуг</option>
+            </select> <br>
+          </div>
+
+          <!-- <label for="sphere">Сфера деятельности:  </label><br>
+          <input type="text" id="sphere" name="sphere"><br> -->
+
+          <div class="modal-element">
+            <select>
+              <option selected disabled>Сфера деятельности:</option>
+              <option value="sphere_1">автомобили</option>
+              <option value="sphere_2">бытовая техника</option>
+              <option value="sphere_3">образование</option>
+              <option value="sphere_4">медицина</option>
+              <option value="sphere_5">косметика</option>
+              <option value="sphere_6">электроника</option>
+            </select> <br>
+          </div>
+
+          <!-- <label for="period">Период: </label><br>
+          <input type="text" id="period" name="period"><br> -->
+
+          <div class="modal-element">
+            <select>
+              <option selected disabled>Период продвижения:</option>
+              <option value="period_1">1</option>
+              <option value="period_2">2</option>
+              <option value="period_3">3</option>
+              <option value="period_6">6</option>
+              <option value="period_9">9</option>
+              <option value="period_12">12</option>
+            </select> <br>
+          </div>
+
+          <div class="modal-element">
+            <label for="budget">Бюджет: </label><br>
+            <input type="text" id="budget" name="budget"><br>
+          </div>
+
+          <input type="submit" value="Отправить">
+        </form>
+      </div>
+
+    </div>
+
+    <!-- Main page stuff -->
     <div class="header">
         <div class="wrapper">
             <p class="logo">passify</p>
-            <div class="button-strategy">
+
+            <!-- Trigger/Open The Modal -->
+            <div class="button-strategy" id="button-strategy">
                 <p>План продвижения</p>
             </div>
             <div class="pages">
